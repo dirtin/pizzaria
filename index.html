@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizzaria Patroni</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <section>
+    <div class="container">
+      
+    <h1>Pizzaria Patroni</h1> <br>
+    <div class="bill">
+      <div class="bill-header">
+    <h2>Sua conta</h2>
+  </div>
+  <hr color="white" size="1" style="border-style: dashed;">
+  <div class="bill-items">
+    <form id="form">
+     <div class="bill-items"> 
+      
+      <fieldset class="blue-fieldset">
+        <input id="total" placeholder="Digite o total da conta" required>
+      </fieldset>
+    </div>
+
+    <div class="bill-items"> 
+      <fieldset class="blue-fieldset">
+        <input id="taxa" placeholder="Valor da taxa de serviço" required>
+      </fieldset>
+      </div>
+
+      <div class="bill-items"> 
+      <fieldset class="blue-fieldset">
+        <input id="pessoas" placeholder="Digite o número de clientes pagantes" required>
+      </fieldset>
+
+    </div>
+    <div class="btn-container">
+      <div class="btn">
+        <button id="buttonSend">Enviar</button>
+      </div>
+    </div>
+    
+    
+    
+    <hr color="white" size="1" style="border-style: dashed;">
+    <div class="bill-total">
+    <div id="resultado"></div>
+    </form>
+    
+    </section>
+
+</div>
+  <script src="main.js"></script>
+</body>
+
+</html>
